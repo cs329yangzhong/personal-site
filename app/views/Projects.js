@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import Cell from '../components/Publications/Cell';
+import data from '../data/publications';
 
 const Projects = () => (
   <Main>
@@ -13,8 +13,8 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/projects">Projects</Link></h2>
-          <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <h2><Link to="/projects">Publications</Link></h2>
+          <p>A list of publications</p>
         </div>
       </header>
       {data.map((project) => (

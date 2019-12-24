@@ -18,21 +18,8 @@ const data = [
     label: 'Stars this repository has on github',
     key: 'stargazers_count',
     value: '0',
-    link: 'https://github.com/mldangelo/personal-site/stargazers',
-  }, {
-    label: 'Number of people watching this repository',
-    key: 'subscribers_count',
-    value: '1',
-    link: 'https://github.com/mldangelo/personal-site/stargazers',
-  }, {
-    label: 'Number of forks',
-    key: 'forks',
-    value: '0',
-    link: 'https://github.com/mldangelo/personal-site/network',
-  }, {
-    label: 'Number of spoons',
-    value: '0',
-  }, {
+    link: '',
+  },   {
     label: 'Number of linter warnings',
     // TODO ammend this with a pre-commit hook
     // `npm run lint | grep problems | tail -1 | awk '{print $2}'`
@@ -46,13 +33,13 @@ const data = [
     label: 'Last updated at',
     key: 'pushed_at',
     value: dayjs().format('MMMM D, YYYY'),
-    link: 'https://github.com/mldangelo/personal-site/commits',
+    link: '',
   },
   { /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
     xargs -I file cat file | wc -l */
     label: 'Lines of Javascript powering this website',
     value: '2625',
-    link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
+    // link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
   },
 ];
 

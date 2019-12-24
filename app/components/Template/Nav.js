@@ -13,17 +13,17 @@ const Nav = () => (
         <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Yang Zhong</h2>
+        <h2>钟阳</h2>
+        <p><a href="mailto:yangzhong0110@gmail.com">yangzhong0110@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-            I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-            the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-            at <a href="https://matroid.com">Matroid</a>, <a href="https://planet.com">Planet</a>, <a href="https://planetaryresources.com">Planetary Resources</a>, <a href="https://facebook.com">Facebook</a>, and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Yang. 
+            I am a first-year PhD student at <a href="https://cse.osu.edu/">Computer Science and Engineering</a> department of <a href="https://www.osu.edu/">The Ohio State University</a>. 
+            I am fortunate to work with my advisor Professor <a href="https://cocoxu.github.io/">Wei Xu</a>. Before that, I obtained my B.S. degree in Mathematics from <a href="https://www.utexas.edu/">University of Texas at Austin</a> and worked closely with Professor <a href="https://jjessyli.github.io/"> Jessy Li</a>.
       </p>
       <ul className="actions">
         <li>
@@ -42,7 +42,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Yang Zhong<Link to="/">cs329yangzhong.github.io</Link>.</p>
     </section>
   </section>
 );
