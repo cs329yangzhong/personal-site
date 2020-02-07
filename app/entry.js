@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 // Featured
-import Index from './views/Index';
+// import Index from './views/Index';
 import About from './views/About';
 import Projects from './views/Projects';
 import Resume from './views/Resume';
@@ -20,7 +20,7 @@ import './static/css/main.scss';
 ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
-      <Route exact path="/" component={Index} />
+      <Route exact path="/" component={About} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       <Route path="/stats" component={Stats} />
