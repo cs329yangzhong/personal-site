@@ -1,5 +1,12 @@
 const data = [
     {
+      title: "Neural CRF Model for Sentence Alignment in Text Simplification",
+      links: "https://arxiv.org/abs/2005.02324",
+      authors: "Chao Jiang, Mounica Maddela, Wuwei Lan, Yang Zhong, Wei Xu",
+      conference: "ACL 2020"
+    },
+
+    {
       title: 'Discourse Level Factors for Sentence Deletion in Text Simplification',
       links: "https://arxiv.org/abs/1911.10384",
       authors: "Yang Zhong, Chao Jiang, Wei Xu, Junyi Jessy Li",
